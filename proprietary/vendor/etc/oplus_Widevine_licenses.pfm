@@ -1,57 +1,81 @@
 {
-  "licenseOEMIDs": 51,
-  "licenseFeaturesIds": [
-    "1601",
-    "1600"
-  ],
-  "licenseHardwareVersions": [
-    "0xA00C"
-  ],
-  "licensePKHashes": [
-    "0x24dc0d1232feb8539eb45488b9455e90d33c4e35b56cb21fb4245cdd8aeecb26"
-  ],
-  "licenseeName": "oem_51_prj_OppoWidevine8650",
-  "features": [
-    "CPZ"
-  ],
-  "featureBundles": [
-    "Widevine"
-  ],
-  "INCLUDE_EXPIRATION_EXTENSION": 1,
-  "licenseExpirationPerpetual": true,
-  "deviceFileName": "1600-1601-no-exp-945429370.pfm",
-  "licenseSerial": "6475cbd2a1001e29fd75a35400000189b74950ea"
+    "INCLUDE_EXPIRATION_EXTENSION": 1,
+    "cbor_extension": "ojoAAVfEggEAOgABV8WiGQZA9RkGQfU=",
+    "chipset_labels": [
+        "SM8635 (0xA013)"
+    ],
+    "chipset_names": [
+        "SM8635"
+    ],
+    "deviceFileName": "1600-1601-no-exp-1674449106.pfm",
+    "featureBundles": [
+        "Widevine"
+    ],
+    "featureRanges": [],
+    "features": [],
+    "filename": "platform_RSA_SM8635_license_4016ebeb-e56f-43dc-b1cb-5a9f3025568d",
+    "graceCount": 0,
+    "gracePeriod": 0,
+    "human_readable_cbor_extension": {
+        "-88005": [
+            1,
+            0
+        ],
+        "-88006": {
+            "1600": true,
+            "1601": true
+        }
+    },
+    "licenseCategory": "CHIPSET_OEM",
+    "licenseFeaturesIds": [
+        "1600",
+        "1601"
+    ],
+    "licenseHardwareVersions": [
+        "0xA013"
+    ],
+    "licenseOEMIDs": 51,
+    "licensePKHashes": [
+        "0x6af6981bbc7c7a84705f51895244e1b83b3c62258007f41435598e4690b4de13e5c79f78359fdb05f33e41fec642405b"
+    ],
+    "licenseType": "PRODUCTION",
+    "licenseeName": "Guangdong OPPO Mobile Telecommunications Corp., Ltd.",
+    "requestMetadata": {
+        "bindToOem": true,
+        "customer": "Guangdong OPPO Mobile Telecommunications Corp., Ltd."
+    },
+    "signature_type": "RSA"
 }
 
 -----BEGIN CERTIFICATE-----
-MIIEsTCCA2WgAwIBAgIUZHXL0qEAHin9daNUAAABibdJUOowQQYJKoZIhvcNAQEK
+MIIE8jCCA6agAwIBAgIUViQK2TNmHlVD2QgGAAABjXn+6HAwQQYJKoZIhvcNAQEK
 MDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEF
 AKIDAgEgMG8xJDAiBgNVBAoMG1F1YWxjb21tIFRlY2hub2xvZ2llcywgSW5jLjEq
 MCgGA1UECwwhUXVhbGNvbW0gQ3J5cHRvZ3JhcGhpYyBPcGVyYXRpb25zMRswGQYD
 VQQDDBJDSExTRSBTaWduaW5nIENlcnQwIBcNNzAwMTAxMDAwMDAxWhgPOTk5OTEy
-MzEyMzU5NTlaMHgxJDAiBgNVBAMMG29lbV81MV9wcmpfT3Bwb1dpZGV2aW5lODY1
-MDEkMCIGA1UECgwbUXVhbGNvbW0gVGVjaG5vbG9naWVzLCBJbmMuMSowKAYDVQQL
-DCFRdWFsY29tbSBDcnlwdG9ncmFwaGljIE9wZXJhdGlvbnMwggEgMAsGCSqGSIb3
-DQEBAQOCAQ8AMIIBCgKCAQEA////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////wIDAQABo4HTMIHQMB8G
-A1UdIwQYMBaAFIcU6Tcyfr22KPwwamAkEDDYveduMAwGA1UdEwEB/wQCMAAwDgYD
-VR0PAQH/BAQDAgWgMBkGCSsGAQQBiykMAQQMAAAAAAAABkEAAAZAMBYGCisGAQQB
-iykLAQEECAAAAAAAAABRMBYGCisGAQQBiykLAQIECAAAAAAAAKAMMC0GCSsGAQQB
-iykMBQQgJNwNEjL+uFOetFSIuUVekNM8TjW1bLIftCRc3YruyyYwFQYJKwYBBAGL
-KQwJBAgAAAAAZMqRvjBBBgkqhkiG9w0BAQowNKAPMA0GCWCGSAFlAwQCAQUAoRww
-GgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAQUAogMCASADggEBAKeT6va7qVnaaQtX
-yfVpjWwBAbSHbqd4zwhzNI/oqXMC5zFkgC3mqbDhkB7OWDZt2P6r6/+MRvy2WH0A
-bqKkPhV0lR99voVnGZJRn201Qfs7KHNsEOrlX+U5Hk7WleTWyw5nWIEWgATq5SNE
-Xg3bmBnCnr2tOAKywtXVye1AcfDA+v+w+HDi3xsEWmR42fFwWPR1oa/Dv4Q5A3Kp
-+HSt/8XX4uu19LAg/eG0+OaHy4Dj4bKrZvhB2uBO+/XD7bBcfa5ZbFp7yLDOhNsg
-Pl9a8v7q2JkZwtvMHOmT9iAP24HTLU12yD9abRvwE2s1k9ftNJkyUY8byYp+U5Kc
-/TS1W4o=
+MzEyMzU5NTlaMIGRMT0wOwYDVQQDDDRHdWFuZ2RvbmcgT1BQTyBNb2JpbGUgVGVs
+ZWNvbW11bmljYXRpb25zIENvcnAuLCBMdGQuMSQwIgYDVQQKDBtRdWFsY29tbSBU
+ZWNobm9sb2dpZXMsIEluYy4xKjAoBgNVBAsMIVF1YWxjb21tIENyeXB0b2dyYXBo
+aWMgT3BlcmF0aW9uczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMfY
+/ImtkJd+EV++DCwiTzfnwzxzgjKrTt6iwygVmVkibRqu9wwAhSxesEmg2T2OecYh
+2nsvtQ11JX3fnailn5ZPMtXf7D4rxYMSuUxI7BE7wH1/AhnPcnb4wVol0KYnF8Gg
+WvvT1pbhWQ98Kz73TDcDl3zJoBnMVPQKtgKoxNoCBvvCOY78Zuu+jdHP5WW9QHTb
+UN/L6Z64EgnsrE4lZsWrfvN6xGk4+UMKwo4AJBNGMkABQJ1+p69QS+z39oxUutn/
+OMLUBTFEMlsw8t4sctMHIxsiBBGVnXYAVaVe0gJYTAo9L2KTtzTFWdJAYPRSFYiB
++roBUEmZjg7aey2zrBcCAwEAAaOB+DCB9TAfBgNVHSMEGDAWgBSHFOk3Mn69tij8
+MGpgJBAw2L3nbjAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIFoDAZBgkrBgEE
+AYspDAEEDAAAAAAAAAZAAAAGQTAWBgorBgEEAYspCwEBBAgAAAAAAAAAUTAjBggr
+BgEEAYspDQQXojoAAVfEggEAOgABV8WiGQZA9RkGQfUwFgYKKwYBBAGLKQsBAgQI
+AAAAAAAAoBMwLQYJKwYBBAGLKQwFBCBq9pgbvHx6hHBfUYlSROG4OzxiJYAH9BQ1
+WY5GkLTeEzAVBgkrBgEEAYspDAkECAAAAABlwQXdMEEGCSqGSIb3DQEBCjA0oA8w
+DQYJYIZIAWUDBAIBBQChHDAaBgkqhkiG9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIB
+IAOCAQEAYxtNsPQe1IRLsx1BWbEv2/+adY5i0ER4htf7rY23fN3yGajLDhyYM7a7
+KRg7Y7A919CHtIxcUm749pEULu5SgmiOixP7PB8Dw4rgtBXjD48Lgg8dl6+0sTri
+UkNzjvoIybXeSx98sRaNXRoRSCH2y0bqqX2k41x9l7fSalwJo1twaPbYwdD241vY
+ITwoDYrQmpsnbw0usWGyXTCLs6W1k9y/OljG3Uv9K/Nhmg0tUuHdFJft87zR44bm
+Nsc2MVv+uVKuI05oPm4DndEXsEDb94eI1zM70ziPaQLcokORx4IhvWxnCFgSTphG
+Y+BVhIl9rOxpLcE4djFbFyLDdm/eTw==
 -----END CERTIFICATE-----
-
 
 -----BEGIN CERTIFICATE-----
 MIIERTCCAv2gAwIBAgIVdqMEQ1j41p18D3AfzC1TDxRDgyKzMD0GCSqGSIb3DQEB
@@ -78,5 +102,3 @@ lC0VXF8DG90waxrhY5W/ziBJTy7BTFNlgdMFw/wP+Wm+1PzqPESnDcgKr2D8lYGY
 kyP2AUNEmQkr/P2wqjYmFwUl8Fu6vyfXXLrBD3DN+MprdUP2d+fxr6kcVfjikzfU
 ZkHrvWqUb3z63I2NMPXnoDq3ZcN+1eE15JqfFk68Z6gNh3qjcFyaI0g=
 -----END CERTIFICATE-----
-
-

@@ -7,7 +7,7 @@
 enable_thp()
 {
 	# THP enablement settings
-	echo always > /sys/kernel/mm/transparent_hugepage/enabled
+	# echo always > /sys/kernel/mm/transparent_hugepage/enabled
 
 	#Enable the PASR support
 	ddr_type=`od -An -tx /proc/device-tree/memory/ddr_device_type`

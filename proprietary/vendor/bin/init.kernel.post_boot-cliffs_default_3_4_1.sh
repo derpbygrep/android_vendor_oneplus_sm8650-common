@@ -31,7 +31,7 @@
 #=============================================================================
 
 rev=`cat /sys/devices/soc0/revision`
-prjname=`getprop ro.boot.prjname`
+
 # Configure RT parameters:
 # Long running RT task detection is confined to consolidated builds.
 # Set RT throttle runtime to 50ms more than long running RT
@@ -122,15 +122,6 @@ if [ -d /proc/sys/walt ]; then
 	echo 325 > /proc/sys/walt/walt_low_latency_task_threshold
 
 	echo 2147483647 2611200 2803200 > /proc/sys/walt/sched_fmax_cap
-
-	case "$prjname" in
-		"23622" | "23609" | "24687" | "23718")
-			# configure maximum frequency of silver cluster when load is not detected and ensure that
-			# other clusters' fmax remains uncapped by setting the frequency to S32_MAX
-			echo 1708800 2707200 2147483647 > /proc/sys/walt/sched_fmax_cap
-			;;
-		*)
-	esac
 
 	# Turn off scheduler boost at the end
 	echo 0 > /proc/sys/walt/sched_boost
@@ -301,8 +292,9 @@ esac
 echo 5120 > /dev/cpuctl/top-app/cpu.shares
 echo 4096 > /dev/cpuctl/foreground/cpu.shares
 
-#config sstop cpu shares
+#config sstop and ssfg cpu shares
 echo 2048 > /dev/cpuctl/sstop/cpu.shares
+echo 2048 > /dev/cpuctl/ssfg/cpu.shares
 
 #config general cpu shares
 echo 2048 > /dev/cpuctl/general/cpu.shares
